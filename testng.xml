@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Search Tests">
+    <test name="P1 Test">
+        <groups>
+            <run>
+                <include name="p1"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.google.tests.Search"/>
+            <class name="com.google.tests.WelcomeMessageTest"/>
+        </classes>
+    </test>
+    <test name="P2 Test">
+    <groups>
+        <run>
+            <include name="p2"/>
+        </run>
+    </groups>
+    <classes>
+        <class name="com.google.tests.Search"/>
+    </classes>
+    </test>
+</suite>
